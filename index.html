@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!--barra de nav-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img
+          src="https://vectorseek.com/wp-content/uploads/2025/09/Copa-Mundial-de-la-FIFA-2026-Logo-PNG-SVG-Vector.png"
+          alt="logo" width="80" height="50" class="Copa Mundial"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item d-flex aling-items-center">
+            <a class="nav-link fs-6 py-0 my-0" href="#" style="color: white; font-weight: bold; line-height: 1;">
+              COPA MUNDIAL <br> FIFA 2026</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sedes
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Calendario</a></li>
+              <li><a class="dropdown-item" href="#">Agenda</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Patrocinadores</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+  </nav>
+  <!--Primera columna-->
+  <header class="position-relative bg-dark text-white min-vh-100 d-flex align-items-center overflow-hidden">
+
+    <div class="position-absolute top-0 end-0 w-100 h-100 m-0 p-0 opacity-50">
+      <img src="https://mmedia.eluniversal.com/19495/nuevo-logo-del-mundial-126021.jpg" alt="Fútbol"
+        class="w-100 h-100 object-fit-cover object-top-end">
+
+    </div>
+
+    <div class="container position-relative py-5" style="z-index: 2;">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <p class="text-primary fw-bold text-uppercase small">—— 11 JUNIO – 19 JULIO 2026 —— </p>
+          <h1 class="display-3 fw-bolder text-uppercase my-3">
+            Copa Mundial <br>
+            <span class="text-primary">FIFA 2026</span>
+          </h1>
+          <p class="text-white mb-4" style="max-width: 450px;">
+            48 selecciones. 16 ciudades sede. 104 partidos. El torneo más grande en la historia del fútbol mundial se
+            celebra en Estados Unidos, México y Canadá.
+          </p>
+          <div class="d-flex gap-3">
+            <a href="#" class="btn btn-primary btn-lg px-4 text-white fw-bold">Ver partidos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- Segunda columna / Sección de estadísticas -->
+<div class="bg-dark py-5 border border-white border-opacity-50 text-center w-100">
+  <div class="container">
+    <div class="row g-4">
+      
+      <div class="col-6 col-md-3">
+        <h2 class="display-5 fw-bold text-primary mb-0">48</h2>
+        <small class="text-uppercase text-secondary small fw-semibold">selecciones</small>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <h2 class="display-5 fw-bold text-primary mb-0">104</h2>
+        <small class="text-uppercase text-secondary small fw-semibold">partidos</small>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <h2 class="display-5 fw-bold text-primary mb-0">16</h2>
+        <small class="text-uppercase text-secondary small fw-semibold">sedes</small>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Fecha de eventos -->
+<div class="container mt-3">
+  <h2>Calendario de Eventos</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
+      </tr>      
+      <tr class="table-primary">
+        <td>Primary</td>
+        <td>Joe</td>
+        <td>joe@example.com</td>
+      </tr>
+      <tr class="table-success">
+        <td>Success</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="table-danger">
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="table-info">
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="table-warning">
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="table-active">
+        <td>Active</td>
+        <td>Activeson</td>
+        <td>act@example.com</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Secondary</td>
+        <td>Secondson</td>
+        <td>sec@example.com</td>
+      </tr>
+      <tr class="table-light">
+        <td>Light</td>
+        <td>Angie</td>
+        <td>angie@example.com</td>
+      </tr>
+      <tr class="table-dark">
+        <td>Dark</td>
+        <td>Bo</td>
+        <td>bo@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</body>
+
+</html>
